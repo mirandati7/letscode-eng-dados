@@ -7,19 +7,19 @@ resposta_5 = input('5 - Devia para a vítima      ..: S ou N ? ')
 contador = int(0)
 
 if resposta_1 == 'S' :    
-    contador = contador + 1
+    contador += 1
 
 if resposta_2 == 'S' :    
-    contador = contador + 1
+    contador += 1
 
 if resposta_3 == 'S' :    
-    contador = contador + 1    
+    contador += 1
 
 if resposta_4 == 'S' :    
-    contador = contador + 1
+    contador += 1
 
 if resposta_5 == 'S' :    
-    contador = contador + 1    
+    contador += 1
 
 print("Resultado da investigação: ", contador)
 if contador <= 1:
